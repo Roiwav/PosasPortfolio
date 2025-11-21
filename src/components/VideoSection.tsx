@@ -62,7 +62,7 @@ export function VideoSection() {
                 onPause={() => setIsPlaying(false)}
               >
                 {/* Add your video source here */}
-                <source src="public/video.mp4" type="video/mp4" />
+                <source src="/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 
