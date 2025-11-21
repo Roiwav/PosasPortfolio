@@ -26,7 +26,7 @@ export function AboutSection() {
           <div className="relative order-2 md:order-1">
             <div className="aspect-[3/4] overflow-hidden border border-gray-200">
               <ImageWithFallback
-                src="public/me.jpg"
+                src="/me.jpg"
                 alt="About designer"
                 className="w-full h-full object-cover transition-all duration-500"
               />
